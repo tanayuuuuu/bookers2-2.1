@@ -13,6 +13,9 @@ import "bootstrap"
 import '@fortawesome/fontawesome-free/js/all';
 import "../stylesheets/application"
 
+//= require jquery3
+//= require popper
+//= require bootstrap-sprockets
 
 Rails.start()
 Turbolinks.start()
