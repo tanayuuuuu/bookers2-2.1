@@ -34,10 +34,9 @@
               <%= f.text_area :comment, row: "5", placeholder: "コメントをここに" %>
               <%= f.submit "送信する" %>
             <% end %>
-          <td class="favorite_buttons">
+          <div id="favorite_btn_<%= @book.id %>">
            <%= render "favorites/btn", book: @book %>
-          </td>
-        </tr>
+          </div>
       </table>
     </div>
   </div>
